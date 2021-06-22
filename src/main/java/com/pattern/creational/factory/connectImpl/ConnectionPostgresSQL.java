@@ -1,15 +1,15 @@
-package com.pattern.factory.connectImpl;
+package com.pattern.creational.factory.connectImpl;
 
-import com.pattern.factory.connect.IConnection;
+import com.pattern.creational.factory.connect.IConnection;
 
-public class ConnectionSQLServer implements IConnection {
+public class ConnectionPostgresSQL implements IConnection {
 
     private String host;
     private String port;
     private String user;
     private String password;
 
-    public ConnectionSQLServer(){
+    public ConnectionPostgresSQL(){
         this.host = "localhost";
         this.port = "8080";
         this.user = "Pepito";
@@ -18,11 +18,11 @@ public class ConnectionSQLServer implements IConnection {
 
     @Override
     public void connect() {
-        System.out.println("Connected with SQLServer");
+        System.out.println("Connected with PostgresSQL");
     }
 
     @Override
     public void disconnect() {
-        System.out.println("Disconnected from SQLServer");
+        System.out.println("Disconnected from PostgresSQL");
     }
 }

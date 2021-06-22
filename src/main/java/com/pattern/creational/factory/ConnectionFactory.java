@@ -1,7 +1,10 @@
-package com.pattern.factory;
+package com.pattern.creational.factory;
 
-import com.pattern.factory.connect.IConnection;
-import com.pattern.factory.connectImpl.*;
+import com.pattern.creational.factory.connect.IConnection;
+import com.pattern.creational.factory.connectImpl.ConnectionMsql;
+import com.pattern.creational.factory.connectImpl.ConnectionOracle;
+import com.pattern.creational.factory.connectImpl.ConnectionPostgresSQL;
+import com.pattern.creational.factory.connectImpl.ConnectionSQLServer;
 
 public class ConnectionFactory {
 
