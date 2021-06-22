@@ -1,4 +1,7 @@
-package com.pattern.builder;
+package com.pattern.creational.builder;
+
+import com.pattern.creational.builder.Game;
+import com.pattern.creational.builder.GameBuilder;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.pattern.factory;
+package com.pattern.creational.factory;
 
-import com.pattern.factory.connect.IConnection;
+import com.pattern.creational.factory.connect.IConnection;
 
 public class Main {
     public static void main(String[] args) {

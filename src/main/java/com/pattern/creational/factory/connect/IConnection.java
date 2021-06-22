@@ -1,4 +1,4 @@
-package com.pattern.factory.connect;
+package com.pattern.creational.factory.connect;
 
 public interface IConnection {
 
