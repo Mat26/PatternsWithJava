@@ -1,4 +1,4 @@
-package com.pattern.builder;
+package com.pattern.creational.builder;
 
 import lombok.Getter;
 

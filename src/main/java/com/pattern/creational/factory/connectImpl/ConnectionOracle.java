@@ -1,6 +1,6 @@
-package com.pattern.factory.connectImpl;
+package com.pattern.creational.factory.connectImpl;
 
-import com.pattern.factory.connect.IConnection;
+import com.pattern.creational.factory.connect.IConnection;
 
 public class ConnectionOracle implements IConnection {
 
